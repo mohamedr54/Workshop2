@@ -1,2 +1,29 @@
+#Part 1
 
+question 1
+
+torrent create "C:\Users\moham\Downloads\IPFS-command.png" -o torrent_cat.torrent
+
+qeustion 2
+
+copy "C:\Users\moham\Downloads\IPFS-command.png" "C:\Users\moham\Downloads\partition1"
+torrent create "C:\Users\moham\Downloads\partition1" -o partition1.torrent
+
+
+question 3
+
+copy "C:\Users\moham\Downloads\partition1" "C:\Users\moham\Downloads\partition2"
+torrent create "C:\Users\moham\Downloads\partition2" -o partition2.torrent
+
+
+#Part 2
+
+
+question 2 
+
+Torrent uses a centralized tracker, and  IPFS works in a decentralized manner (without tracker)
+
+question 3
+
+partition1 and partition 2 have the same id
 
